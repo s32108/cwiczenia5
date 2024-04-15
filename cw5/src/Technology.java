@@ -6,4 +6,7 @@ public class Technology {
         this.technology = technology;
         this.bonus = bonus;
     }
+    public int getBonus() {
+        return bonus;
+    }
 }

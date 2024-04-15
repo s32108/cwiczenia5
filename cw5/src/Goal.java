@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Goal {
     public int year;
     public int month;
@@ -13,4 +15,13 @@ public class Goal {
         this.bonus=bonus;
 
     }
+    public boolean isAchievedThisMonth() {
+        LocalDate currentDate = LocalDate.now();
+        return currentDate.getYear() == year && currentDate.getMonthValue() == month;
+    }
+
+    public int getBonus() {
+        return bonus;
+    }
 }
+

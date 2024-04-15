@@ -24,7 +24,7 @@ public class Main {
 
         }
 
-        System.out.println("Total amount to be paid this month: " + totalAmount + "USD");
+        System.out.println("Total amount to be paid this month: " + totalAmount + " USD");
 
     }
 }
